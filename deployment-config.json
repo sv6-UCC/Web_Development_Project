@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "csgate.ucc.ie",
+    "username": "sv6",
+    "password": "XuWUSeJ3",
+    "port": 22,
+    "remotePath": "/users/2023/sv6/public_html/cgi-bin/lab2",
+    "uploadOnSave": true
+}

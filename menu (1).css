@@ -1,0 +1,137 @@
+body {
+    background-image: url("city.jpg");
+
+}
+canvas {
+    border: 1px solid white;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    color:red
+
+
+}
+#mat{
+  color: white;
+  border:0.0625 solid red;
+  background-color: red
+}
+header {
+
+    color:#77eb34;
+    text-align:center;
+    margin:10px 0;
+    border
+}
+
+nav{
+   border-radius: 25px;
+   border: 0.0625em solid yellow;
+   padding:1em;
+   background-color:yellow;
+   width:45%;
+   height:100px
+   margin-left: auto;
+   margin-right: auto;
+   text-align:center
+}
+ section{
+    border-radius: 25px;
+    border: 0.0625em solid yellow;
+    padding:1em;
+    background-color:yellow;
+    width:45%;
+    height:100px
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center
+}
+nav li a {
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none;
+ margin:1em;
+ font-size: 20px;
+
+}
+nav li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+ul{
+  color: black;
+  list-style-type: none;
+}
+section+ section{
+  margin-top: 15px
+}
+section + table{
+  margin-top: 15px
+}
+nav + section{
+  margin-top: 15px
+}
+body {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto;
+    grid-template-areas: "top top"
+                         "middle-left middle-right"
+                         "bottom bottom"
+}
+main {
+  grid-area: middle-right;
+}
+p{
+  grid-area:middle-left;
+}
+footer {
+    grid-area: bottom;
+}
+header {
+  grid-area:top
+}
+/*section {
+        text-align:center
+
+
+}*/
+img {
+    max-height:50px,
+    max-width:50px,
+}
+form label {
+
+    color: white
+}
+input {
+    display: block;
+    box-sizing: border-box;
+}
+
+table{
+  /*border-collapse:collapse;*/
+  border:1px solid white;
+  /*display:block;
+  margin-left: auto;
+  margin-right: auto*/
+}
+tr{
+  color: red;
+
+
+}
+th{
+  color: #5bdee3;
+
+}
+td{
+  color: red;
+  border:1px solid white;
+  text-align: center;
+}

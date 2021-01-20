@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap');
+
+
+     
+body{
+     
+     
+     background-color:green;
+     background-attachment:scroll;
+     font-family: 'Tenor Sans', sans-serif;
+     margin:0;
+     
+     
+}
+
+
+
+
+
+
+@media screen and (min-width: 70em){
+
+body {
+  
+}
+
+header {
+    
+    text-color:#96460c;
+    text-align:center;
+    margin:10px 0;
+    border
+}
+
+h1 {
+    margin:1em auto;
+}
+
+nav ul{
+    
+        width: 19%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+    
+}
+
+main {
+    padding:1em;
+    margin-left:19%;
+}
+
+
+aside {
+    margin-left:19%;
+}
+    
+footer {
+    text-align:center;
+}
+
+    
+    
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  border: 1px solid #555;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+ nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin:1em;
+  
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+nav li a:hover {
+  background-color: #555;
+  color: white;
+  
+}
+
+
+
+nav li a.active {
+  background-color: #4CAF50;
+  color: white;
+   
+}
+
+nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  
+}
+}
+
+
+header {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color:white;
+    border: 0.6em solid black;
+}
+
+aside{
+    background-color:#0976e3;
+    border: 0.6em solid black;
+}
+
+main > h1, main > figure, main > p {
+    flex-basis: 100%;
+}
+
+
+
+main > section {
+    flex-basis: 48%;
+    min-width: 15em;
+    margin: 1.276em 0 1em 0;
+    border: 0.0625em solid rgb(204, 239, 219);
+    border-radius: 1em;
+    background-color:orange;
+}
+
+
+
+main > h1 {
+    font-size: 2em;
+}
+
+main > section > h1 {
+    font-size: 1.5em;
+    padding: 0 1rem;
+}
+
+main > section > p {
+    padding: 0 1rem;
+}
+
+main > p {
+    margin: 0.5em 0 1em 0;
+}
+
+main ul, main ol {
+    margin: 0.5em 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+
+main > figure {
+    text-align: center;
+}
+
+img{
+    padding: 5px;
+    max-width:60%;
+    max-height:60%;
+    margin-right: 75px; 
+    margin-left: 75px;
+    
+}
+
+.brain{
+    width:100%;
+    height:100%;
+}
+
+    
+p { 
+   color:black;
+}
+/* This is a box */
+h1 {
+    
+    border: 0.0625em solid red;
+    padding:1em;
+    background-color:red
+    
+}  
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0976e3;
+}
+
+ ol li {
+  float: left;
+}
+
+ol li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ol li a:hover {
+  background-color: #111;
+}
+
+
+
+table{
+      
+      width:80%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color:purple;
+  color:white;
+  
+}
+
+aside ul{
+    color:white;
+    background-color:purple;
+    
+  padding: 14px 16px;
+    
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-color: #3cff14;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: green;
+    }
+

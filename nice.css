@@ -1,0 +1,79 @@
+body {
+    background-image: url("city.jpg");
+
+}
+
+canvas {
+    border: 1px solid white;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-image: url("canvas_image.jpg");
+}
+p{
+    color:red
+
+}
+section{
+  float:left;
+   border-radius: 25px;
+   border: 0.0625em solid yellow;
+   padding:1em;
+   background-color:yellow;
+   width:45%;
+   height:50%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align:center
+}
+nav li a {
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none;
+ margin:1em;
+ font-size: 20px;
+
+}
+nav{
+  float:right;
+   border-radius: 25px;
+   border: 0.0625em solid yellow;
+   padding:1em;
+   background-color:yellow;
+   width:45%;
+   height:50%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align:center
+}
+nav li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+ul{
+  color: black;
+  list-style-type: none;
+}
+header {
+
+    color:#77eb34;
+    text-align:center;
+    margin:10px 0;
+    border
+}
+
+#dog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

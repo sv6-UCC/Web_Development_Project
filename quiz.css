@@ -1,0 +1,93 @@
+p{
+  color: white;
+  border:0.0625 solid red;
+  background-color: red
+
+}
+body {
+    background-color: #5bdee3;
+
+}
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    grid-template-areas: "top top"
+                         "middle-left middle-right"
+                         "bottom bottom"
+}
+main {
+  grid-area: middle-right;
+}
+p{
+  grid-area:middle-left;
+}
+footer {
+    grid-area: bottom;
+}
+header {
+  grid-area:top
+}
+nav{
+   border-radius: 25px;
+   border: 0.0625em solid yellow;
+   padding:1em;
+   background-color:yellow;
+   width:45%;
+   height:100px
+   margin-left: auto;
+   margin-right: auto;
+   text-align:center
+}
+
+nav li a {
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none;
+ margin:1em;
+ font-size: 20px;
+
+}
+nav li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+ul{
+  color: black;
+  list-style-type: none;
+}
+nav + section{
+  margin-top: 15px
+}
+section + form{
+  margin-top: 15px
+}
+form + section{
+  margin-top:15px
+}
+header {
+
+    color:green;
+    text-align:center;
+    margin:10px 0;
+    border
+}
+section {
+  border-radius: 25px;
+  border: 0.0625em solid yellow;
+  padding:1em;
+  background-color:yellow;
+  width:70%;
+  height:100px
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center
+}
+section+ section{
+  margin-top: 15px
+}
+form label {
+    color: black
+}
